@@ -17,3 +17,13 @@ const PORT = process.env.PORT;
 server
     .listen(PORT)
     .then(() => console.log(`Server is running on http://localhost:${PORT}/`));
+
+    const x = (resolver) => (root, args, context, info) => {
+        if(!context.loggedInUser) {
+            return {
+                ok: false,
+                error: "log in pls",
+            };
+        }
+        return resolver(root, args,context, info)
+    }
