@@ -7,27 +7,26 @@ Instaclone Backend.
 - [x] Create Account
 - [x] See Profile
 - [x] Login
-- [ ] Edit Profile
-- [ ] Change Avatar (Image Upload)
-- [ ] Follow User
-- [ ] Unfollow User
-- [ ] Search Users
-- [ ] See Followers
-- [ ] See Following
+- [x] Edit Profile
+- [x] Change Avatar (Image Upload)
+- [x] Follow User
+- [x] Unfollow User
+- [x] Search Users
+- [x] See Followers
+- [x] See Following
 
 ## Photos
 
-- [ ] See Photo
-- [ ] Upload Photo
-- [ ] Edit Photo
-- [ ] Like / Unlike Photo
-- [ ] See Photo Likes
-- [ ] See Feed
-- [ ] Search Photos
-- [ ] See Hashtags
+- [x] See Photo
+- [x] Upload Photo
+- [x] Edit Photo
+- [x] Like / Unlike Photo
+- [x]See Photo Likes
+- [x] See Feed
+- [x] Search Photos
+- [x] See Hashtags
 
-## Comments
+## AWS
 
-- [ ] Comment on Photo
-- [ ] Edit Comment
-- [ ] Delete Comment
+- [x] S3 Photo Upload
+
